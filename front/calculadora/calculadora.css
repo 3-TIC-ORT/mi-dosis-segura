@@ -1,0 +1,237 @@
+body {
+    background-color: #A3DFF2;
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'Digital Numbers';
+    src: url('DigitalNumbers-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fredoka';
+  src: url('../Fredoka/Fredoka-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+ .azuloscuro {
+    position: absolute;
+    width: 1218px;
+    height: 842px;
+    top: 134px;
+    left: 94px;
+    border-width: 7.07px;
+    border-color: black;
+    border-style: solid;
+ }
+
+ .cajaazul {
+    position: absolute;
+    width: 657px;
+    height: 754px;
+    background-color: #2C7998;
+    top: 47px;
+    left: 270px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 8px;
+ }
+
+ .resultado {
+    position: absolute;
+    width: 570px;
+    height: 107px;
+    left: 43.5px;
+    top: 42.44px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: #839D36;
+ }
+
+ .resultado p {
+    position: relative;
+    width: 412px;
+    height: 55px;
+    top: -15px;
+    left: 79px;
+    font-size: 42.44px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Digital Numbers";
+ }
+
+.inputcomida {
+    position: absolute;
+    width: 576px;
+    height: 102px;
+    left: 40.5px;
+    top: 330px;;
+    border-radius: 8.84px;
+    border-style: solid;
+    border-color: black;
+    border-width: 7.07px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+    font-size: 42.44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.inputcomida::placeholder {
+    position: absolute;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+    font-size: 42.44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    left: 220px;
+    top: 25px;
+}
+
+.calcular {
+    position: absolute;
+    width: 435px;
+    height: 116px;
+    background-color: #FF0000;
+    border-style: solid;
+    border-color: black;
+    border-width: 7.07px;
+    border-radius: 442.06px;
+    left: 111px;
+    top: 600px;
+}
+
+.calcular p {
+    position: absolute;
+    font-family: "Fredoka", sans-serif;
+    font-style: Regular;
+    font-size: 42.44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    left: 107.5px;
+}
+
+.botoncalcular {
+    position: absolute;
+    width: 435px;
+    height: 116px;
+    background-color: transparent;
+    border: none;
+}
+
+.grupocomidasss {
+    position: absolute;
+    width: 576px;
+    height: 99px;
+    opacity: 1;
+    border-width: 7.07px;
+    border-radius: 8.84px;
+    border-style: solid;
+    border-color: #000000;
+    left: 40.5px;
+    top:190px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 42.44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.grupocomidasss::placeholder {
+    position: absolute;
+    font-family: "Fredoka", sans-serif;
+    font-size: 42.44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    top: 25px;
+    left: 70px;
+}
+
+.SELECTOR {
+    position: absolute;
+    width: 33.45418167114258px;
+    left: 480px;
+    top: 240px;
+}
+
+.cantidaddd {
+    position: absolute;
+    width: 270px;
+    height: 99px;
+    opacity: 1;
+    top: 269px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 16px;
+    top: 465px;
+    left: 42px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 42.44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.cantidaddd::placeholder {
+    position: absolute;
+    font-family: "Fredoka", sans-serif;
+    font-size: 42.44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    top: 25px;
+    left: 50px;
+}
+
+.unidaddd {
+    position: absolute;
+    width: 263px;
+    height: 97px;
+    opacity: 1;
+    top: 465px;
+    left: 350px;
+    border-width: 8px;
+    border-color: #000000;
+    border-radius: 10px;
+    border-style: solid;
+    font-family: "Fredoka", sans-serif;
+    font-size: 42.44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.unidaddd::placeholder {
+    position: absolute;
+    font-family: "Fredoka", sans-serif;
+    font-size: 42.44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    top: 25px;
+    left: 70px;
+}
+
+.logo {
+    position: absolute;
+    width: 287px;
+    height: 161.95px;
+    top: 11px;
+    left: 1141px;
+}
+
+.atras {
+    position: absolute;
+    width: 252;
+    height: 59;
+    top: 47px;
+    left: 94px;
+    padding: 10px;
+    gap: 10px;
+}

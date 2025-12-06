@@ -1,0 +1,197 @@
+body {
+    width: 1440px;
+    height: 1024px;
+    background-color: #A3DFF2;
+    display: flex;
+}
+
+@font-face {
+    font-family: 'Digital Numbers';
+    src: url('DigitalNumbers-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.azuloscuro {
+    position: absolute;
+    width: 1241px;
+    height: 805.993408203125px;
+    background-color: #8EE0FF;
+    opacity: 1;
+    top: 148px;
+    left: 95px;
+    border-style: solid;
+    border-color: black;
+    border-width: 7.64px;
+}
+
+.logo {
+    position: absolute;
+    width: 309px;
+    height: 174.36427307128906px;
+    opacity: 1;
+    top: 9px;
+    left: 1087px;
+}
+
+.atras {
+    position: absolute;
+    width: 252px;
+    height: 59px;
+    opacity: 1;
+    top: 47px;
+    left: 95px;
+}
+
+.mesa {
+    position: absolute;
+    width: 720.5px;
+    height: 432.3339538574219px;
+    opacity: 1;
+    top: 373.66px;
+    left: -3px;
+    z-index: 1000;
+}
+
+.normal {
+    position: absolute;
+    width: 375px;
+    height: 504.941162109375px;
+    opacity: 1;
+    top: 59px;
+    left: 139px;
+    z-index: 500;
+}
+
+.mucho {
+    position: absolute;
+    width: 413px;
+    height: 527px;
+    top: 32px;
+    left: 97px;
+    z-index: 500;
+}
+
+.baja {
+    position: absolute;
+    width: 590px;
+    height: 590px;
+    top: 36px;
+    left: 14px;
+    z-index: 500;
+}
+
+.glucometro {
+    position: absolute;
+    width: 289px;
+    height: 435.89947509765625px;
+    opacity: 1;
+    top: 29px;
+    left: 855px;
+}
+
+.nivelglucometro {
+    position: absolute;
+    top: 80px;
+    left: 920px;
+    font-family: "Digital Numbers", sans-serif;
+    font-size: 68.75px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.display {
+    display: none;
+}
+
+.plato {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    top: 400px;
+    left: 165px;
+    z-index: 1500;
+}
+
+.plato img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.azucar img{
+    position: absolute;
+    width: 423px;
+    height: 89px;
+    top: 691px;
+    left: 794px;
+    background-color: transparent;
+    border: none;
+    z-index: 1000;
+}
+
+.azucar {
+    background-color: transparent;
+    border: none;
+    z-index: 1500;
+}
+
+.insulina img{
+    position: absolute;
+    width: 423.04034423828125px;
+    height: 89px;
+    top: 596px;
+    left: 794px;
+    background-color: transparent;
+    border: none;
+    z-index: 1000;
+}
+
+.insulina {
+    background-color: transparent;
+    border: none;
+    z-index: 1500;
+}
+
+.comer img{
+    position: absolute;
+    width: 423px;
+    height: 111px;
+    top: 479px;
+    left: 794px;
+    background-color: transparent;
+    border: none;
+}
+
+.comer {
+    background-color: transparent;
+    border: none;
+    z-index: 1500;
+}
+
+.mogul {
+    position: absolute;
+    width: 125.57738494873047px;
+    height: 98.4920654296875px;
+    top: 657px;
+    left: 469px;
+    z-index: 1500;
+}
+
+.mogul1{
+    position: absolute;
+    width: 134.60581970214844px;
+    height: 110.80357360839844px;
+    top: 635px;
+    left: 486px;
+    z-index: 1500;
+}
+
+.lapicera {
+    position: absolute;
+    width: 333.14874267578125;
+    height: 166.522705078125;
+    top: 635px;
+    left: 42px;
+    z-index: 1500;
+}

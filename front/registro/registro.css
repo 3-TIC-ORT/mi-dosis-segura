@@ -1,0 +1,223 @@
+body {
+    width: 1440px;
+    height: 1024px;
+    background-color: #A3DFF2;
+    display: flex;
+}
+
+@font-face {
+    font-family: "Fredoka";
+    src: url("Fredoka-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo{
+    position: absolute;
+    width: 420px;
+    height: 237px;
+    top: 22px;
+    left: 40px;
+}
+
+.azuloscuro {
+    position: absolute;
+    width: 814px;
+    height: 897px;
+    opacity: 1;
+    top: 100px;
+    left: 345px;
+    border-radius: 40px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: #39ABD9;
+}
+
+.niñogrande {
+    position: absolute;
+    width: 415;
+    height: 599;
+    top: 207px;
+    left: 356px;
+}
+
+.registrate {
+    position: absolute;
+    width: 312px;
+    height: 78px;
+    left: 251px;
+    top: 40px;
+}
+
+.yatenescuenta {
+    position: absolute;
+    width: 450px;
+    height: 30px;
+    left: 180px;
+    top: 120px;
+}
+
+.nombre {
+    position: absolute;
+    width: 286px;
+    height: 44px;
+    font-family: "Fredoka";
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    top: 210px;
+    left: 63px;
+}
+
+.nombrenene {
+    position: absolute;
+    width: 286px;
+    height: 64px;
+    opacity: 1;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 2px;
+    font-family: "Fredoka";
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    top: 285px;
+    left: 63px;
+}
+
+.nombrenene::placeholder {
+    font-family: "Fredoka";
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.apellido {
+    position: absolute;
+    width: 286px;
+    height: 44px;
+    font-family: "Fredoka";
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    top: 325px;
+    left: 63px;
+}
+
+.apellidonene {
+    position: absolute;
+    width: 286px;
+    height: 64px;
+    opacity: 1;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 2px;
+    font-family: "Fredoka";
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    top: 400px;
+    left: 63px;
+}
+
+.apellidonene::placeholder {
+    font-family: "Fredoka";
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.contraseña {
+    position: absolute;
+    width: 286px;
+    height: 44px;
+    font-family: "Fredoka";
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    top: 440px;
+    left: 63px;
+}
+
+.aceptar {
+    position: absolute;
+    width: 198px;
+    height: 64px;
+    background-color: #FBCE00;
+    opacity: 1;
+    top: 796px;
+    left: 308px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+    border-width: 6px;
+    font-family: "Fredoka";
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.blanco {
+    position: absolute;
+    width: 276px;
+    height: 258px;
+    opacity: 1;
+    background-color: white;
+    top: 515px;
+    left: 63px;
+    border-radius: 13px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.piel {
+    display: none;
+}
+
+.piel.visible {
+    position: absolute;
+    display: block;
+    top: 60px;
+    left: 35px;
+}
+
+.pelo {
+    display: none;
+}
+
+.pelo.visible {
+    position: absolute;
+    display: block;
+    top: 20px;
+    left: 40px;
+    z-index: 1500;
+}
+
+.pelo.mujer {
+    position: absolute;
+    left: 28px;
+}
+
+.piel.entero {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.lentes {
+    display: none;
+}
+
+.lentes.visible {
+    position: absolute;
+    display: block;
+    top: 110px;
+    left: 60px;
+    z-index: 1500;
+}

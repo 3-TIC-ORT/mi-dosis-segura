@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="registrop.css">
+</head>
+<body>
+<div class="frame">
+    <div class="txt">
+        <h2 class="registroh1">REGISTRO</h2>
+        <p class="p" id="cuenta">¿YA TENÉS CUENTA? INICIA SESIÓN</p>
+    </div>
+    <div class="titulos">
+        <h2 class="datosp">TUS DATOS</h2>
+        <h1 class="datosh">DATOS HIJO/A</h1>
+    </div>
+    <div class="datos">
+
+<div class="datospadres">
+    <div class="apellido container">
+        <h1 class="h1">Apellido</h1>
+        <input type="text" id="apellido" required placeholder=" tu apellido aqui" class="input">
+    </div>
+    <div class="nombrep container">
+        <h1 class="h1">Nombre del padre</h1>
+        <input type="text" id="nombrep" required placeholder=" tu nombre aqui" class="input">
+    </div>
+
+
+<div class="contraseña container">
+    <h1 class="h1">Contraseña</h1>
+    <input type="text" id="contraseña" required placeholder=" tu contraseña aqui" class="input">
+</div></div>
+    <div class="datosniños">
+    <div class="nombreh container">
+    <h1 class="h1">Nombre</h1>
+    <input type="text" id="nombreh" required placeholder="su nombre aqui" class="input">
+    </div>
+    <div class="apellidoh container">
+        <h1 class="h1">Apellido</h1>
+        <input type="text" id="apellidoh" required placeholder="su apellido aqui" class="input">
+
+</div>
+<div class="dosis container">
+    <h1 class="h1">Dosis de insulina</h1>
+    <input type="text" id="dosis" required placeholder="unidades aplicadas por dia" class="input">
+</div>
+</div></div>
+<button id="registroBTN" class="aceptarbtn">ACEPTAR</button>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js"></script>
+    
+<script src="https://cdn.jsdelivr.net/gh/JZylber/SoqueTIC-Client@v1.4.2/soquetic-client.js"></script>
+<script src="registro.js"></script>
+</body>
+</html>

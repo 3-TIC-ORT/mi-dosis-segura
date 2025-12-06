@@ -1,0 +1,518 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Fredoka One", Arial, sans-serif;
+  background-color: #A3DFF2;
+}
+.pop{
+        position: absolute;
+    background-color: #FCEBD9;
+    border-color: #16AC2D;
+    width: 701px;
+    height: 682px;
+    top: 210px;
+    left: 358px;
+    opacity: 1;
+    font-family: "Fredoka", sans-serif;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 15px;
+    z-index: 1500;
+}
+.explicacion{
+    z-index: 20;
+    height: 100%;
+    width: 100%;
+}
+.cerrar {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    width: 80px;
+    height: 80px;
+    top: 31px;
+    left: 584px;
+    opacity: 1;
+    z-index: 110;
+}
+@font-face {
+    font-family: 'Fredoka';
+    src: url('Fredoka-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+  font-family: "Fredoka One";
+  position: absolute;
+}
+
+.logo {
+  position: absolute;
+  width: 265px;
+  height: 149.53570556640625px;
+  opacity: 1;
+  top: 15px;
+  left: 1155px;
+}
+
+.containerdeimg {
+  display: flex;
+  flex-direction: column;
+}
+.imagen {
+  width: 172.71177673339844px;
+  height: 160.9740753173828px;
+  opacity: 1;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+.boton {
+  width: 165.16612243652344px;
+  height: 160.13568115234375px;
+  gap: 10px;
+  color: black;
+  font-size: 50px;
+  border-radius: 100%;
+  font-family: "Fredoka One", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 107.32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  background-color: #ffffffb2;
+  border: 2.52px solid #ffffff;
+  cursor: pointer;
+  font-weight: 800;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 107.32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.boton:hover {
+  padding: 5%;
+  transition: all 0.3s ease;
+}
+.resultadodiv {
+  position: fixed;
+  margin-top: 76.06px;
+  margin-left: 258.4px;
+  transform: none;
+  display: none;
+  width: 701px;
+  height: 682px;
+  padding: 32px 28px;
+  box-sizing: border-box;
+  opacity: 1;
+  border-radius: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  color: #000;
+  z-index: -3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.amarillo {
+  background-color: #f3f36e;
+  border: 15px solid #f7b81d;
+}
+.verde {
+  background-color: #a4dfad;
+  border: 15px solid #16ac2d;
+}
+.rojo {
+  background-color: #f29a9a;
+  border: 14px solid #ff2b2b;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.08) inset;
+  border-radius: 18px;
+}
+.cruz {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 48px;
+  height: 48px;
+  transform: none;
+  cursor: pointer;
+  transform: none;
+}
+.frame {
+  width: 1267.6707763671875px;
+  height: 823.3153076171875px;
+  opacity: 1;
+  margin-top: 136.94px;
+  margin-left: 87.6px;
+  border: black, solid, 6.71px;
+  background-color: #10ce2c;
+  z-index: -2;
+  overflow: hidden;
+}
+.dinoazul {
+  position: fixed;
+  width: 224.69297790527344;
+  height: 192.83352661132812;
+  opacity: 1;
+  margin-top: 300.15px;
+  margin-left: 104.8px;
+}
+.dinoamarillo {
+  position: fixed;
+  width: 207.92483520507812px;
+  height: 185.28787231445312;
+  opacity: 1;
+  margin-top: 12.58px;
+  margin-left: 430.94px;
+}
+.dinovioleta {
+  position: fixed;
+  width: 285.0582580566406;
+  height: 219.6625213623047;
+  opacity: 1;
+  margin-top: 643.06px;
+  margin-left: 568.44px;
+}
+.boton1 {
+  position: fixed;
+  opacity: 1;
+  margin-top: 103.12px;
+  margin-left: 91.38px;
+}
+.boton2 {
+  position: fixed;
+  width: 165.16612243652344;
+  height: 160.13568115234375;
+  opacity: 1;
+  margin-top: 162.65px;
+  margin-left: 336.2px;
+  border-width: 2.52px;
+  border-radius: 83.84px;
+}
+.boton3 {
+  position: fixed;
+  width: 165.16612243652344;
+  height: 160.13568115234375;
+  opacity: 1;
+  margin-top: 148.4px;
+  margin-left: 581.01px;
+  border-width: 2.52px;
+  border-radius: 83.84px;
+}
+.boton4 {
+  position: fixed;
+  width: 165.16612243652344;
+  height: 160.13568115234375;
+  opacity: 1;
+  margin-top: 354.65px;
+  margin-left: 562.57px;
+  border-width: 2.52px;
+  border-radius: 83.84px;
+}
+.boton5 {
+  position: fixed;
+  width: 165.16612243652344;
+  height: 160.13568115234375;
+  opacity: 1;
+  border-width: 2.52px;
+  border-radius: 83.84px;
+  margin-top: 435.13px;
+  margin-left: 347.94px;
+}
+.boton6 {
+  position: fixed;
+  width: 165.16612243652344;
+  height: 160.13568115234375;
+  opacity: 1;
+  margin-top: 456.93px;
+  margin-left: 93.07px;
+  border-width: 2.52px;
+  border-radius: 83.84px;
+}
+.boton7 {
+  position: fixed;
+  width: 165.16612243652344;
+  height: 160.13568115234375;
+  opacity: 1;
+  margin-top: 634.67px;
+  margin-left: 193.67px;
+  border-width: 2.52px;
+  border-radius: 83.84px;
+}
+.camino {
+  position: absolute;
+  width: 816.66px;
+  left: -13.41px;
+  height: 796.49px;
+  top: 93.93px;
+  z-index: -1;
+}
+.arbol1 {
+  position: fixed;
+  width: 155.105224609375;
+  height: 134.14505004882812;
+  margin-top: 26.83px;
+  margin-left: 233.92px;
+  opacity: 1;
+}
+.arbol2 {
+  position: fixed;
+  width: 174.38858032226562;
+  height: 184.44944763183594;
+  margin-top: 103.12px;
+  margin-left: 697.55px;
+  opacity: 1;
+}
+.arbol3 {
+  position: absolute;
+  width: 211.27845764160156;
+  height: 426.7489318847656;
+  opacity: 1;
+  margin-top: 497.18px;
+  margin-left: 419.2px;
+}
+
+.lineamarron {
+  width: 36.889888763427734px;
+  height: 827.50732421875px;
+  opacity: 1;
+  margin-left: 853.5px;
+  z-index: 2;
+}
+.piedras4 {
+  width: 426.33099365234375;
+  height: 217.98306274414062;
+  opacity: 1;
+  top: 592.75px;
+  left: 861.04px;
+}
+.piedras3 {
+  width: 426.3310241699219;
+  height: 205.40943908691406;
+  opacity: 1;
+  top: 429.26px;
+  left: 861.04px;
+  border-width: 0.84px;
+}
+.piedras2 {
+  width: 402.4368591308594;
+  height: 249.8462371826172;
+  opacity: 1;
+  top: 208.76px;
+  left: 861.04px;
+  border-width: 0.84px;
+}
+.piedras1 {
+  width: 416.9526062011719;
+  height: 226.37132263183594;
+  opacity: 1;
+  top: -13.38px;
+  left: 861.04px;
+  border-width: 0.84px;
+}
+.piedras5 {
+  width: 416.952392578125;
+  height: 226.36927795410156;
+  opacity: 1;
+  top: 634.67px;
+  left: 859.36px;
+  border-width: 0.84px;
+}
+.piedras6 {
+  width: 416.9526062011719;
+  height: 226.36874389648438;
+  opacity: 1;
+  top: 26.83px;
+  left: 861.04px;
+  border-width: 0.84px;
+}
+.containerdeimg {
+  width: 350.4539489746094;
+  height: 700.9078979492188;
+  opacity: 1;
+  top: 53.66px;
+  left: 892.06px;
+}
+.tercerogrupo {
+  display: flex;
+  flex-direction: row;
+  width: 361.353271484375;
+  height: 157.6204376220703;
+  opacity: 1;
+  top: 380.64px;
+  left: 0px;
+  gap: 19.28px;
+}
+.segundogrupo {
+  display: flex;
+  flex-direction: row;
+  width: 361.353271484375;
+  height: 157.6204376220703;
+  opacity: 1;
+  top: 191.99px;
+  left: 0px;
+  gap: 19.28px;
+}
+.primergrupo {
+  display: flex;
+  flex-direction: row;
+  width: 361.353271484375;
+  height: 160.9740753173828;
+  opacity: 1;
+  top: -0px;
+  left: 0px;
+  gap: 19.28px;
+}
+.imagen7 {
+  width: 161.81246948242188;
+  height: 160.9740753173828;
+  opacity: 1;
+  top: 562.57px;
+  left: 89.71px;
+  border-width: 6.71px;
+}
+.txtresultado {
+  margin: 0;
+  padding: 0;
+  font-family: "Fredoka One", Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: 0;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  transform: none;
+  width: 555;
+  height: 179;
+  opacity: 1;
+}
+
+.txtresultado .numero {
+  position: relative;
+  font-family: "Fredoka One", Arial, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 96px;
+  line-height: 1;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 0 6px;
+  transform: none;
+}
+.zindex {
+  z-index: 10;
+}
+.felicidades {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 555;
+  height: 77;
+  opacity: 1;
+  font-family: "Fredoka One";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 250px;
+  margin-left: 75px;
+}
+.textosresultado {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  width: 555px;
+  height: 338px;
+  top: 149px;
+  left: 69px;
+  opacity: 1;
+  gap: 82px;
+}
+* {
+  font-family: "Fredoka One", sans-serif;
+  font-style: normal;
+}
+.botonresultado {
+  position: absolute;
+  width: 425px;
+  height: 68.7621841430664px;
+  margin-top: 500px;
+  opacity: 1;
+  border-width: 6.63px;
+  gap: 8.28px;
+  border-radius: 49.71px;
+  padding: 8.28px;
+  background-color: #39abd9;
+  border: #000000, solid, 6.63px;
+  cursor: pointer;
+  font-family: "Fredoka One";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 39.77px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.btnatras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+
+  top: 41px;
+  left: 110px;
+  opacity: 1;
+  border-width: 4px;
+  gap: 10px;
+  border-radius: 50px;
+  padding: 10px;
+  border: 4px solid #777777;
+  font-family: "Fredoka";
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  cursor: pointer;
+  color: #777777;
+  white-space: nowrap;
+  font-family: "Fredoka";
+}
+.confeti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  pointer-events: none; /* para que no bloquee clicks */
+  display: none;
+}
+.display{
+  display: block;
+}
+.zindex {
+  z-index: 10;
+}
+.antizidex{
+  z-index: -100;
+display: block;
+opacity: 0;
+}
+.borde{
+    border:#39abd9, solid, 6.63px;
+}

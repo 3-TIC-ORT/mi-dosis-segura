@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Fredoka One", Arial, sans-serif;
+    background-color: #A3DFF2;
+  }
+
+@font-face {
+    font-family: "Fredoka";
+    src: url("../iniciodesesion/Fredoka-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.BOTON1, .BOTON2, .BOTON3, .BOTON4, .BOTON5 {
+  z-index: 5000;
+  background: transparent;
+  border: none;
+  height: 156px;
+  width: 156px;
+}
+
+.popup {
+  position: absolute;
+  width: 842px;
+height: 682px;
+top: 51px;
+left: 203px;
+background-color: #FCEBD9;
+opacity: 1;
+border-width: 8px;
+border-radius: 20px;
+border-color: black;
+border-style: solid;
+display: none;
+z-index: 5100;
+}
+
+.popupcontenedor {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: "Fredoka", sans-serif;
+}
+
+.popupcontenedor h3 {
+  position: relative;
+  text-align: center;
+  opacity: 1;
+  font-family: "Fredoka";
+  font-style: Medium;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  text-decoration-skip-ink: auto;
+}
+
+.popupcontenedor h4 {
+  position: relative;
+  font-family: "Fredoka";
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.fila {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 15px 0;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.icono {
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.cerrar {
+  position: absolute;
+  width: 62px;
+height: 62px;
+top: -48px;
+left: 760px;
+opacity: 1;
+  background-color: transparent;
+  border: none;
+}
+
+  .volveratras {
+    position: absolute;
+    width: 252px;
+    height: 59px;
+    opacity: 1;
+    top: 43px;
+    left: 117px;
+}
+
+  .advertenciaamarilla{
+    width: 1109px;
+    height: 152px;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Fredoka One", Arial, sans-serif;
+    background-color: #F7B81D;
+    border-radius: 30px;
+    border:4px black solid;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    gap: 10px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.7;
+    justify-content: center;
+}
+
+.signowarning{
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  padding: 10px;
+ margin: 10px;
+ justify-content: center;
+ z-index: 100; 
+}
+
+.main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1205.6px;
+    height: 783px;
+    border: 8px solid black;
+    left: 117px;
+    top: 146px;
+    overflow: hidden;
+    z-index: 10;
+}
+  
+.restaurante1 {  position:absolute; width: 156;
+height: 156;
+top: 236px;
+left: 157px;
+opacity: 1;
+z-index: 1;
+ }
+.restaurante2 { position:absolute; width: 157;
+height: 157;
+top: 426px;
+left: 304px;
+opacity: 1;
+z-index: 1;
+}
+.restaurante3 { position:absolute; width: 152;
+height: 152;
+top: 274px;
+left: 586px;
+opacity: 1;
+z-index: 1;
+ }
+.restaurante4 { position:absolute;width: 154;
+height: 154;
+top: 572px;
+left: 653px;
+opacity: 1;
+z-index: 1;
+ 
+}
+.restaurante5 { position:absolute; width: 157;
+height: 157;
+top: 426px;
+left: 888px;
+opacity: 1;
+z-index: 1;
+}
+.LOGO{
+    position: absolute;
+    left: 1133px;
+    top: 14px;
+    width: 260px;
+    height: 136.81px;
+}
+.signowarning{
+  position: absolute;
+  width: 150px;
+height: 150px;
+top: 0px;
+left: 0px;
+opacity: 1;
+border-radius: 15px;
+}
+.h1{
+  position: absolute;
+width: 843px;
+height: 49px;
+top: 18px;
+left: 184px;
+opacity: 1;
+font-family: "Fredoka";
+font-weight: 400;
+font-style: Regular;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+z-index: 100;
+}
+.hovered {
+  z-index: 20;
+  filter: brightness(1.5) drop-shadow(0 0 10px yellow);
+  transform: scale(1.1);
+  transition: all 0.2s ease;
+}
+
+.oculto {
+  display: none;
+}
+

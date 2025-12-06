@@ -1,0 +1,165 @@
+body{
+    background-color: #A3DFF2;
+    margin: 0;
+    padding: 0;
+    font-family: "Fredoka",  sans-serif;
+}
+
+@font-face {
+    font-family: Fredoka;
+    src: url(../registro/Fredoka-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.textos{
+    position: absolute;
+        width: 824px;
+height: 363px;
+opacity: 1;
+top: 361px;
+left: 155px;
+}
+.logo{
+    position: absolute;
+width: 420px;
+height: 237px;
+opacity: 1;
+top: 4px;
+left: 62px;
+}
+.pasto{
+    position: absolute;
+opacity: 1;
+top: 697px;
+border-width: 1px;
+}
+.niño{
+    position: absolute;
+    width: 441px;
+height: 657px;
+opacity: 1;
+top: 306px;
+left: 928px;
+}
+.btniniciosesion{
+    position: absolute; 
+    width: 305px;
+height: 121px;
+opacity: 1;
+top: 40px;
+left: 744px;
+border-width: 6px;
+gap: 10px;
+border-radius: 100px;
+padding: 10px;
+background: #0077FF;
+border: 6px solid #040404;
+cursor: pointer;
+font-family: "Fredoka";
+font-weight: 400;
+font-style: Regular;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #FFFFFF;
+}
+.btnregistro{
+     position: absolute; 
+    width: 305px;
+height: 121px;
+opacity: 1;
+top: 40px;
+left: 1084px;
+border-width: 6px;
+gap: 10px;
+border-radius: 100px;
+padding: 10px;
+background: transparent;
+border: 6px solid #040404;
+cursor: pointer;
+font-family: "Fredoka";
+font-weight: 400;
+font-style: Regular;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+}
+.hojas{
+    position: absolute;
+    width: 181px;
+height: 133px;
+opacity: 1;
+top: 375px;
+left: -122px;
+}
+.hojas2{
+    position: absolute;
+    width: 181px;
+height: 121px;
+opacity: 1;
+top: 482px;
+left: -65px;
+}
+.h1{
+    font-family: "Fredoka One";
+font-weight: 400;
+font-style: Regular;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+width: 824px;
+height: 44px;
+opacity: 1;
+}
+.p{
+    position: relative;
+    width: 763px;
+height: 210px;
+opacity: 1;
+top: 84px;
+font-family: "Fredoka";
+font-weight: 400;
+font-style: Regular;
+font-size: 35px;
+line-height: 100%;
+letter-spacing: 0%;
+    overflow-y: auto;          /* activa la barra vertical */
+    overflow-x: hidden;  
+
+}
+  .p::-webkit-scrollbar {
+    width: 14px; /* grosor de la barra */
+  }
+    .p::-webkit-scrollbar-track {
+        background: #f1f1f1; /* color de fondo del track */
+        border-radius: 50px;
+    }
+    .p::-webkit-scrollbar-thumb {
+        background: #888; /* color del thumb */
+        border-radius: 50px;
+    }
+    .p::-webkit-scrollbar-thumb:hover {
+        background: #555; /* color del thumb al pasar el cursor */
+    }
+.ematevoy{
+    position: absolute;
+width: 40px;
+height: 131.5px;
+top: 598px;
+left: 1267px;
+opacity: 1;
+border-width: 4px;
+}
+.amatarforra{
+    position: absolute;
+    width: 29px;
+height: 103px;
+top: 594px;
+left: 1252px;
+opacity: 1;
+border-width: 4px;
+
+}

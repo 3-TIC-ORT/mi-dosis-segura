@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-midosissegura",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon express/back.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3-TIC-ORT/proyecto-midosissegura.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3-TIC-ORT/proyecto-midosissegura/issues"
+  },
+  "homepage": "https://github.com/3-TIC-ORT/proyecto-midosissegura#readme",
+  "dependencies": {
+    "expresss": "^0.0.0",
+    "nodemon": "^3.1.11",
+    "soquetic": "^1.4.2"
+  },
+  "description": ""
+}

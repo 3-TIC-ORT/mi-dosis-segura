@@ -1,0 +1,986 @@
+[
+  {
+    "Alimento": "Papa",
+    "Tipo": "Vegetal",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Choclo en grano",
+    "Tipo": "Vegetal",
+    "Unidad": "Taza",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Choclo entero",
+    "Tipo": "Vegetal",
+    "Unidad": "Unidad",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Mandioca",
+    "Tipo": "Vegetal",
+    "Unidad": "Unidad",
+    "CpU": 60
+  },
+  {
+    "Alimento": "Batata",
+    "Tipo": "Vegetal",
+    "Unidad": "Unidad",
+    "CpU": 60
+  },
+  {
+    "Alimento": "Puré de batata",
+    "Tipo": "Vegetal",
+    "Unidad": "Taza",
+    "CpU": 60
+  },
+  {
+    "Alimento": "Puré de papa",
+    "Tipo": "Vegetal",
+    "Unidad": "Taza",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Puré instantáneo",
+    "Tipo": "Vegetal",
+    "Unidad": "Cucharada",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Calabaza",
+    "Tipo": "Vegetal",
+    "Unidad": "Taza",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Zapallo",
+    "Tipo": "Vegetal",
+    "Unidad": "Taza",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Palta",
+    "Tipo": "Vegetal",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Remolacha",
+    "Tipo": "Vegetal",
+    "Unidad": "Taza",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Zanahoria",
+    "Tipo": "Vegetal",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Ananá",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Compotera",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Banana",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Cerezas",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Compotera",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Ciruelas",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Unidad",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Damascos",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Unidad",
+    "CpU": 5
+  },
+  {
+    "Alimento": "Duraznos",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Frutillas",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Taza",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Granada",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Taza",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Melón",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Rodaja",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Mandarina",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Mango",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Unidad",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Manzana",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Moras",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Compotera",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Naranja",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Peras",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Pomelo",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Sandía",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Compotera",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Uvas",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Kiwi",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Unidad",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Higos",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Unidad",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Kinotos",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Frambuesas",
+    "Tipo": "Fruta Fresca",
+    "Unidad": "Compotera",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Manzanas",
+    "Tipo": "Fruta desecada",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Pasas de uva",
+    "Tipo": "Fruta desecada",
+    "Unidad": "Pocillo",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Frutas secas",
+    "Tipo": "Fruta desecada",
+    "Unidad": "Taza",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Puré de manzana",
+    "Tipo": "Fruta en conserva",
+    "Unidad": "Taza",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Ananá en lata dietético",
+    "Tipo": "Fruta en conserva",
+    "Unidad": "Rodaja",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Cóctel de frutas dietético",
+    "Tipo": "Fruta en conserva",
+    "Unidad": "Compotera",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Duraznos en lata dietéticos",
+    "Tipo": "Fruta en conserva",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Avena cocida",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Cucharada",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Almidón de maíz",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Cucharada",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Harina de mandioca",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Taza",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Arroz blanco",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Cucharada",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Arroz integral",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Cucharada",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Canelones",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Panqueque",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Unidad",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Ñoquis",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Taza",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Ñoquis de sémola",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Unidad",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Pastas cocidas",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Taza",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Ravioles",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Plato",
+    "CpU": 60
+  },
+  {
+    "Alimento": "Capelettini",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Taza",
+    "CpU": 60
+  },
+  {
+    "Alimento": "Lámina de Lasagna",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Lamina",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Lentejas ",
+    "Tipo": "Legumbre",
+    "Unidad": "Taza",
+    "CpU": 60
+  },
+  {
+    "Alimento": "Porotos",
+    "Tipo": "Legumbre",
+    "Unidad": "Taza",
+    "CpU": 60
+  },
+  {
+    "Alimento": "Garbanzos",
+    "Tipo": "Legumbre",
+    "Unidad": "Taza",
+    "CpU": 60
+  },
+  {
+    "Alimento": "Milanesa de soja",
+    "Tipo": "Legumbre",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Habas cocidas",
+    "Tipo": "Legumbre",
+    "Unidad": "Taza",
+    "CpU": 60
+  },
+  {
+    "Alimento": "Pan blanco",
+    "Tipo": "Pan",
+    "Unidad": "Rodaja",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Pan integral",
+    "Tipo": "Pan",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Pan de hamburguesa",
+    "Tipo": "Pan",
+    "Unidad": "Unidad",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Pan árabe",
+    "Tipo": "Pan",
+    "Unidad": "Unidad",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Sándwich de miga",
+    "Tipo": "Pan",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Tortilla de maíz",
+    "Tipo": "Pan",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Pan de salvado",
+    "Tipo": "Pan",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Pan de pancho",
+    "Tipo": "Pan",
+    "Unidad": "Unidad",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Pan de fajitas",
+    "Tipo": "Pan",
+    "Unidad": "Unidad",
+    "CpU": 20
+  },
+  {
+    "Alimento": "Pan francés en rodajas",
+    "Tipo": "Pan",
+    "Unidad": "Rodaja",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Pan pebete",
+    "Tipo": "Pan",
+    "Unidad": "Unidad",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Barra de cereal",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Copitos azucarados",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Taza",
+    "CpU": 60
+  },
+  {
+    "Alimento": "Copos de maíz",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Taza",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Granola",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Taza",
+    "CpU": 60
+  },
+  {
+    "Alimento": "Pochoclo dulce",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Taza",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Pochoclo salado",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Taza",
+    "CpU": 5
+  },
+  {
+    "Alimento": "Cuadradiitos de avena",
+    "Tipo": "Cereal/Pasta",
+    "Unidad": "Taza",
+    "CpU": 60
+  },
+  {
+    "Alimento": "Galletas de agua",
+    "Tipo": "Galletitas",
+    "Unidad": "Unidad",
+    "CpU": 3
+  },
+  {
+    "Alimento": "Bizcochitos de grasa",
+    "Tipo": "Galletitas",
+    "Unidad": "Unidad",
+    "CpU": 5
+  },
+  {
+    "Alimento": "Galletas de arroz",
+    "Tipo": "Galletitas",
+    "Unidad": "Unidad",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Grisines",
+    "Tipo": "Galletitas",
+    "Unidad": "Unidad",
+    "CpU": 3
+  },
+  {
+    "Alimento": "Mini tostadas",
+    "Tipo": "Galletitas",
+    "Unidad": "Taza",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Galletas tipo bizcochitos",
+    "Tipo": "Galletitas",
+    "Unidad": "Taza",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Empanaditas de copetin",
+    "Tipo": "Copetín/Salados varios",
+    "Unidad": "Unidad",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Snacks",
+    "Tipo": "Copetín/Salados varios",
+    "Unidad": "Unidad",
+    "CpU": 5
+  },
+  {
+    "Alimento": "Papas fritas",
+    "Tipo": "Copetín/Salados varios",
+    "Unidad": "Paquete",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Maní",
+    "Tipo": "Copetín/Salados varios",
+    "Unidad": "Taza",
+    "CpU": 20
+  },
+  {
+    "Alimento": "Papas fritas chicas",
+    "Tipo": "Copetín/Salados varios",
+    "Unidad": "Paquete",
+    "CpU": 25
+  },
+  {
+    "Alimento": "Papas fritas grandes",
+    "Tipo": "Copetín/Salados varios",
+    "Unidad": "Paquete",
+    "CpU": 45
+  },
+  {
+    "Alimento": "Pizza a la piedra",
+    "Tipo": "Copetín/Salados varios",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Masa de tarta",
+    "Tipo": "Copetín/Salados varios",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Tapa de empanada",
+    "Tipo": "Copetín/Salados varios",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Galleta cuadrada dulce",
+    "Tipo": "Galletitas dulces/Postres",
+    "Unidad": "Unidad",
+    "CpU": 5
+  },
+  {
+    "Alimento": "Magdalena",
+    "Tipo": "Galletitas dulces/Postres",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Budín de chocolate",
+    "Tipo": "Galletitas dulces/Postres",
+    "Unidad": "Rodaja",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Budín de vainilla",
+    "Tipo": "Galletitas dulces/Postres",
+    "Unidad": "Rodaja",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Medialuna",
+    "Tipo": "Galletitas dulces/Postres",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Pan dulce",
+    "Tipo": "Galletitas dulces/Postres",
+    "Unidad": "Rodaja",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Scones grandes",
+    "Tipo": "Galletitas dulces/Postres",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Palmerita",
+    "Tipo": "Galletitas dulces/Postres",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Bizcohuelo",
+    "Tipo": "Galletitas dulces/Postres",
+    "Unidad": "Rodaja",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Galletas de arroz dulces",
+    "Tipo": "Galletitas dulces/Postres",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Churros",
+    "Tipo": "Galletitas dulces/Postres",
+    "Unidad": "Unidad",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Leche descremada",
+    "Tipo": "Lácteos",
+    "Unidad": "Taza",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Leche en polvo",
+    "Tipo": "Lácteos",
+    "Unidad": "Cucharada",
+    "CpU": 5
+  },
+  {
+    "Alimento": "Yogurt bebible dietético",
+    "Tipo": "Lácteos",
+    "Unidad": "Vaso",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Yogurt bebible entero",
+    "Tipo": "Lácteos",
+    "Unidad": "Vaso",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Flan",
+    "Tipo": "Lácteos",
+    "Unidad": "Compotera",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Postre simple",
+    "Tipo": "Lácteos",
+    "Unidad": "Unidad",
+    "CpU": 25
+  },
+  {
+    "Alimento": "Yogur dietético con granola",
+    "Tipo": "Lácteos",
+    "Unidad": "Unidad",
+    "CpU": 25
+  },
+  {
+    "Alimento": "Yogur ditético con cereales",
+    "Tipo": "Lácteos",
+    "Unidad": "Unidad",
+    "CpU": 25
+  },
+  {
+    "Alimento": "Yogur entero con cereales azucarados",
+    "Tipo": "Lácteos",
+    "Unidad": "Unidad",
+    "CpU": 45
+  },
+  {
+    "Alimento": "Flan de vainilla",
+    "Tipo": "Lácteos",
+    "Unidad": "Unidad",
+    "CpU": 25
+  },
+  {
+    "Alimento": "Flan de dulce de leche",
+    "Tipo": "Lácteos",
+    "Unidad": "Unidad",
+    "CpU": 25
+  },
+  {
+    "Alimento": "Flan con caramelo",
+    "Tipo": "Lácteos",
+    "Unidad": "Compotera",
+    "CpU": 25
+  },
+  {
+    "Alimento": "Postre dietético de chocolate",
+    "Tipo": "Lácteos",
+    "Unidad": "Unidad",
+    "CpU": 20
+  },
+  {
+    "Alimento": "Chocolatada envasada",
+    "Tipo": "Lácteos",
+    "Unidad": "Vaso",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Chocolatada preparada",
+    "Tipo": "Lácteos",
+    "Unidad": "Vaso",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Yogur dietético con frutas",
+    "Tipo": "Lácteos",
+    "Unidad": "Unidad",
+    "CpU": 20
+  },
+  {
+    "Alimento": "Yogur griego",
+    "Tipo": "Lácteos",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Yogur con frutas y cereales",
+    "Tipo": "Lácteos",
+    "Unidad": "Vaso",
+    "CpU": 25
+  },
+  {
+    "Alimento": "Azúcar",
+    "Tipo": "Golosinas",
+    "Unidad": "Cucharada",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Dulce compacto común",
+    "Tipo": "Golosinas",
+    "Unidad": "Unidad",
+    "CpU": 60
+  },
+  {
+    "Alimento": "Dulce de leche común y dietético",
+    "Tipo": "Golosinas",
+    "Unidad": "Cucharada",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Gelatina común",
+    "Tipo": "Golosinas",
+    "Unidad": "Taza",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Miel",
+    "Tipo": "Golosinas",
+    "Unidad": "Cucharada",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Mermelada de fruta",
+    "Tipo": "Golosinas",
+    "Unidad": "Cucharada",
+    "CpU": 5
+  },
+  {
+    "Alimento": "Alfajor de chocolate con dulce de leche",
+    "Tipo": "Golosinas",
+    "Unidad": "Unidad",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Bananita cubierta de chocolate",
+    "Tipo": "Golosinas",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Caramelos",
+    "Tipo": "Golosinas",
+    "Unidad": "Unidad",
+    "CpU": 5
+  },
+  {
+    "Alimento": "Barrita de chocolate y cereal dietética",
+    "Tipo": "Golosinas",
+    "Unidad": "Unidad",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Chocolate de taza",
+    "Tipo": "Golosinas",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Chocolate en polvo",
+    "Tipo": "Golosinas",
+    "Unidad": "Cucharada",
+    "CpU": 5
+  },
+  {
+    "Alimento": "Merengue",
+    "Tipo": "Golosinas",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Turrón de maní",
+    "Tipo": "Golosinas",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Turrón de maní dulce",
+    "Tipo": "Golosinas",
+    "Unidad": "Unidad",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Huevo de pascua",
+    "Tipo": "Golosinas",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Alfajor de galleta de arroz",
+    "Tipo": "Golosinas",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Cucurucho tipo barquillo",
+    "Tipo": "Golosinas",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Casata de tres gustos",
+    "Tipo": "Helados",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Helado bombón",
+    "Tipo": "Helados",
+    "Unidad": "Unidad",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Helado",
+    "Tipo": "Helados",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Cono de vainilla",
+    "Tipo": "Helados",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Helado de agua en palito",
+    "Tipo": "Helados",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Helado de crema en palito",
+    "Tipo": "Helados",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Helado dietético",
+    "Tipo": "Helados",
+    "Unidad": "Taza",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Chipá",
+    "Tipo": "Comidas típicas",
+    "Unidad": "Unidad",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Empanada de humita",
+    "Tipo": "Comidas típicas",
+    "Unidad": "Unidad",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Empanadas",
+    "Tipo": "Comidas típicas",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Humita en chala",
+    "Tipo": "Comidas típicas",
+    "Unidad": "Unidad",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Locro",
+    "Tipo": "Comidas típicas",
+    "Unidad": "Plato",
+    "CpU": 75
+  },
+  {
+    "Alimento": "Tamales",
+    "Tipo": "Comidas típicas",
+    "Unidad": "Unidad",
+    "CpU": "7,5"
+  },
+  {
+    "Alimento": "Tortas fritas",
+    "Tipo": "Comidas típicas",
+    "Unidad": "Unidad",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Criollo o tortilla",
+    "Tipo": "Comidas típicas",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Tortitas",
+    "Tipo": "Comidas típicas",
+    "Unidad": "Unidad",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Sushi tipo roll",
+    "Tipo": "Comidas típicas",
+    "Unidad": "Unidad",
+    "CpU": 5
+  },
+  {
+    "Alimento": "Sushi tipo nighiri",
+    "Tipo": "Comidas típicas",
+    "Unidad": "Unidad",
+    "CpU": 10
+  },
+  {
+    "Alimento": "Ensalada rusa",
+    "Tipo": "Comidas típicas",
+    "Unidad": "Plato",
+    "CpU": 60
+  },
+  {
+    "Alimento": "Milanesas",
+    "Tipo": "Comidas típicas",
+    "Unidad": "Unidad",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Gaseosa común",
+    "Tipo": " Bebidas",
+    "Unidad": "Vaso",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Jugo de naranja o pomelo",
+    "Tipo": " Bebidas",
+    "Unidad": "Vaso",
+    "CpU": 30
+  },
+  {
+    "Alimento": "Jugo comercial",
+    "Tipo": " Bebidas",
+    "Unidad": "Vaso",
+    "CpU": 15
+  },
+  {
+    "Alimento": "Jugo comercial dietético",
+    "Tipo": " Bebidas",
+    "Unidad": "Vaso",
+    "CpU": 5
+  }
+]

@@ -1,0 +1,60 @@
+body {
+    background-color: #A3DFF2;
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+}
+
+.logo {
+    position: absolute;
+    width: 306px;
+    height: 172.6714324951172px;
+    top: 13px;
+    left: 1130px;
+}
+
+.volveratras {
+    position: absolute;
+    width: 252;
+    height: 59;
+    top: 50px;
+    left: 97px;
+}
+
+.imagenesprimero, .imagenessegundo, .imagenestercero, .imagenescuarto {
+    position: absolute;
+    top: 171px;
+    left: 156px;
+}
+
+.seguir {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 498px;
+    left: 1298px;
+    background-color: transparent;
+    border: none;
+    z-index: 20;
+}
+
+.atras {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 498px;
+    left: 36px;
+    background-color: transparent;
+    border: none;
+}
+.imagenessegundo img {
+  width: 100%;
+  height: auto;
+}
+
+.block {
+  display:initial;
+}
+.none {
+  display: none;
+}

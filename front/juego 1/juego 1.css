@@ -1,0 +1,280 @@
+body {
+    background-color: rgb(163, 223, 242);
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+}
+.explicacion{
+    z-index: 20;
+    height: 100%;
+    width: 100%;
+}
+
+.azuloscuro {
+    position: absolute;
+    background-color: rgb(130, 219, 247);
+    width: 1283.14px;
+    height: 833.36px;
+    top: 138px;
+    left: 78px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: black;
+    display: flex;
+}
+
+
+.comida {
+    position: absolute;
+    width: 229.1322479248047px;
+    height: 229.1322479248047px;
+    top: 78.92px;
+    left: 260.53px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.carbos {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 79.77px;
+    left: 780.75px;
+    width: 229.1322479248047px;
+    height: 229.1322479248047px;
+}
+
+
+.botonesrojos {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 163px;
+    left: 748px;
+    gap: 190px;
+}
+
+
+.botonesrojos input{
+    background-color: red;
+    border-radius: 100%;
+    border-color: red;
+    width: 49px;
+    height: 49px;
+}
+
+
+.botonesazules {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 163px;
+    left: 475px;
+    gap: 190px;
+}
+
+
+.botonesazules input{
+    background-color: blue;
+    border-radius: 100%;
+    border-color: blue;
+    width: 49px;
+    height: 49px;
+}
+
+
+.botonatras {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    top: 38px;
+    left: 110px;
+    padding: 10px;
+}
+
+
+.botonatras img {
+    width: 252px;
+    height: 59px;
+}
+
+.imagenlogo {
+    position: absolute;
+    width: 287px;
+    height: 161.95px;
+    top: 11px;
+    left: 1141px;
+}
+.display{
+    display: none;
+}
+.displaya{
+    display: block;
+}
+.posicion1{
+    top: 350px;
+    left: 550px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.posicion2{
+    top: 400px;
+    left: 500px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.posicion3{
+    top: 450px;
+    left: 450px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.flechas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+
+.video {
+    position: absolute;
+    z-index: 2000;
+    pointer-events: none;
+}
+
+@font-face {
+  font-family: 'Fredoka';
+  src: url('FredokaOne-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pop1 {
+    position: absolute;
+    background-color: #F37777;
+    border-color: #FF0000;
+    width: 701px;
+    height: 682px;
+    top: 210px;
+    left: 358px;
+    opacity: 1;
+    font-family: "Fredoka", sans-serif;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 15px;
+    z-index: 1500;
+}
+
+.pop2 {
+    position: absolute;
+    background-color: #F3F36E;
+    border-color: #F7B81D;
+    width: 701px;
+    height: 682px;
+    top: 210px;
+    left: 358px;
+    opacity: 1;
+    font-family: "Fredoka", sans-serif;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 15px;
+    z-index: 1500;
+    
+}
+
+.pop3 {
+    position: absolute;
+    background-color: #A4DFAD;
+    border-color: #16AC2D;
+    width: 701px;
+    height: 682px;
+    top: 210px;
+    left: 358px;
+    opacity: 1;
+    font-family: "Fredoka", sans-serif;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 15px;
+    z-index: 1500;
+}
+.pop{
+        position: absolute;
+    background-color: #FCEBD9;
+    border-color: #16AC2D;
+    width: 701px;
+    height: 682px;
+    top: 210px;
+    left: 358px;
+    opacity: 1;
+    font-family: "Fredoka", sans-serif;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 15px;
+    z-index: 1500;
+}
+.score {
+    position: absolute;
+    top: 145px;
+    left: 125px;
+    opacity: 1;
+    gap: 82px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    flex-direction: column;
+}
+
+.score::after {
+    content: "BIEN";
+    display: block;
+}
+
+.motivacion {
+    position: absolute;
+    font-family: "Fredoka", sans-serif;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    top: 350px;
+    left: 140px;
+}
+
+.volverajugar {
+    position: absolute;
+    width: 425px;
+    height: 68.7621841430664px;
+    background-color: #39ABD9;
+    top: 557px;
+    left: 138px;
+    opacity: 1;
+    border-width: 6.63px;
+    border-radius: 49.71px;
+    border-style: solid;
+    font-family: "Fredoka", sans-serif;
+    font-size: 39px;
+}
+
+.cerrar {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    width: 80px;
+    height: 80px;
+    top: 31px;
+    left: 584px;
+    opacity: 1;
+    z-index: 110;
+}
+.antizindex{
+    z-index: -200;
+}

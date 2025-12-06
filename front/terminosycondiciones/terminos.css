@@ -1,0 +1,60 @@
+body {
+    width: 1440px;
+    height: 1024px;
+    background-color: #A3DFF2;
+    margin: 0;
+    display: flex;
+}
+
+.amarillo {
+    position: absolute;
+    width: 1218px;
+    height: 842px;
+    background-color: #FCEBD9;
+    opacity: 1;
+    top: 134px;
+    left: 94px;
+    border-style: solid;
+    border-width: 7.07px;
+    border-color: black;
+    display: flex;
+    z-index: 500;
+}
+
+.logo {
+    position: absolute;
+    width: 259.9999694824219px;
+    height: 146.7142791748047px;
+    opacity: 1;
+    top: 12px;
+    left: 1101px;
+}
+
+.titulo {
+    position: absolute;
+    width: 715px;
+    height: 77px;
+    opacity: 1;
+    top: 47px;
+    left: 232px;
+    z-index: 1000;
+}
+
+.texto {
+    position: absolute;
+    width: 1063px;
+    height: 646px;
+    opacity: 1;
+    top: 158px;
+    left: 74px;
+    z-index: 1000;
+}
+
+.atras {
+    position: absolute;
+    width: 252;
+    height: 59;
+    opacity: 1;
+    top: 36px;
+    left: 94px;
+}

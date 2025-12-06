@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+background-color: #A3DFF2;
+}
+.queesladiabetes{
+    position: absolute;
+    width: 537px;
+height: 509px;
+top: 381px;
+left: 96px;
+border-radius: 45.49px;
+border-width: 17.29px;
+opacity: 1;
+background: #16AC2D;
+border: 17.29px solid #000000;
+box-shadow: 0px 3.64px 3.64px 0px #00000040;
+display: flex;
+align-items: center;
+text-align: center;
+cursor: pointer;
+}
+.pqueesladiabetes{
+position: absolute;
+width: 487.6291198730469px;
+height: 282px;
+opacity: 1;
+font-family: "Fredoka One";
+font-weight: 400;
+font-style: normal;
+font-size: 116.45px;
+line-height: 100%;
+letter-spacing: 0%;
+font-family: "Fredoka One";
+font-weight: 400px;
+font-style: normal;
+font-size: 72.78px;
+line-height: 150px;
+letter-spacing: 0%;
+ margin-bottom: 80px;
+ display: flex;
+align-items: center;
+text-align: center;
+
+}
+header{
+    width: 1440px;
+height: 177px;
+opacity: 1;
+background: #39ABD9;
+}
+.logo{
+position: absolute;
+width: 345.5696105957031px;
+height: 195px;
+top: 11px;
+left: 114px;
+opacity: 1;
+}
+.usuario{
+position: absolute;
+width: 106px;
+height: 106px;
+top: 36px;
+left: 1176px;
+border-width: 8px;
+opacity: 1;
+cursor: pointer;
+}
+.aprende{
+    position: absolute;
+    width: 413px;
+height: 106px;
+left: 106.22px;
+border-width: 7.28px;
+opacity: 1;
+font-family: "Fredoka One";
+font-weight: 400;
+font-style: normal;
+font-size: 100.34px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #16AC2D;
+  -webkit-text-stroke: 7.28px black; 
+}
+.juega{
+position: absolute;
+width: 297px;
+height: 106px;
+left: 843.64px;
+border-width: 7.28px;
+opacity: 1;
+opacity: 1;
+font-family: "Fredoka One";
+font-weight: 400;
+font-style: normal;
+font-size: 100.34px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #F7B81D;
+  -webkit-text-stroke: 7.28px black;
+}
+.botonescont{
+    position: absolute;
+    width: 655.0242309570312px;
+height: 547.6729736328125px;
+top: 367.73px;
+left: 720.98px;
+opacity: 1;
+display: grid;
+row-gap: 22.21px;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
+  grid-template-rows: repeat(2, auto); 
+}
+.juego4{
+    position: absolute;
+    left: 327.51px;
+    top: 284.94px;
+}
+.juego2{
+position: absolute;
+  left: 327.51px;
+}
+.juego3{
+    position: absolute;
+    top: 284.94px;
+}
+
+

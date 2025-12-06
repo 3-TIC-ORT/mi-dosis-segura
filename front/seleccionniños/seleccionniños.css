@@ -1,0 +1,62 @@
+body {
+    background-color: #A3DFF2;
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+}
+
+.logo {
+    position: absolute;
+    width: 306px;
+    height: 172.6714324951172px;
+    top: 13px;
+    left: 1130px;
+}
+
+.volveratras {
+    position: absolute;
+    width: 252px;
+    height: 59px;
+    top: 50px;
+    left: 97px;
+}
+
+.boton1 {
+    position: absolute;
+    width: 1304px;
+    height: 174px;
+    top: 170px;
+    background-color: transparent;
+    border: none;
+    left: 60px;
+}
+
+.boton2 {
+    position: absolute;
+    width: 1304px;
+    height: 174px;
+    top: 375px;
+    background-color: transparent;
+    border: none;
+    left: 60px;
+}
+
+.boton3 {
+    position: absolute;
+    width: 1304px;
+    height: 174px;
+    top: 580px;
+    background-color: transparent;
+    border: none;
+    left: 60px;
+}
+
+.boton4 {
+    position: absolute;
+    width: 1304px;
+    height: 174px;
+    top: 785px;
+    background-color: transparent;
+    border: none;
+    left: 60px;
+}

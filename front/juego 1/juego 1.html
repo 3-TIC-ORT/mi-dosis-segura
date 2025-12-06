@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="juego 1.css">
+</head>
+<body>
+    <svg class="flechas" id="flechas"></svg>
+    <video src="imagenes/confetti-transparent.webm" id="video" class="video" autoplay muted loop></video>
+    <div class="pop1" id="pop1">
+        <p class="score">HICISTE 1 DE 3</p>
+        <p class="motivacion">¡TU PUEDES!</p>
+        <button class="volverajugar" id="volverajugar1" type="button" value="VOLVER A JUGAR">
+            VOLVER A JUGAR
+        </button>
+        <button type="button" value="cerrarPOPUP1" id="cerrarPOPUP1" class="cerrar">
+            <img src="imagenes/cruz.png">
+        </button>
+    </div>
+    <div class="pop2" id="pop2">
+        <p class="score">HICISTE 2 DE 3</p>
+        <p class="motivacion">¡SIGUE ASI!</p>
+        <button class="volverajugar" id="volverajugar2" type="button" value="VOLVER A JUGAR">
+            VOLVER A JUGAR
+        </button>
+       
+        <button type="button" value="cerrarPOPUP2" id="cerrarPOPUP2" class="cerrar">
+            <img src="imagenes/cruz.png">
+        </button>
+    </div>
+    <div class="pop" id="pop">
+        <video src="proyecto finalissima - Google Chrome 25-Oct-25 12_46_43 PM.mp4" id="explicacion" class="explicacion" muted></video>
+ <button type="button" value="cerrarPOPUP" id="cerrarPOPUP" class="cerrar">
+<img src="imagenes/cruz.png">
+</button>
+    </div>
+    <div class="pop3" id="pop3">
+        <p class="score">HICISTE 3 DE 3</p>
+        <p class="motivacion">¡FELICIDADES!</p>
+        <button class="volverajugar" id="volverajugar3" type="button" value="VOLVER A JUGAR">
+            VOLVER A JUGAR
+        </button>
+        <button type="button" value="cerrarPOPUP3" id="cerrarPOPUP3" class="cerrar">
+            <img src="imagenes/cruz.png">
+        </button>
+    </div>
+    <div class="azuloscuro">
+        <div class="comida" id="comidas">
+            <img src="imagenes/banana.png" alt="banana" id="img3" class="img">
+            <img src="imagenes/carne.png" alt="carne" id="img2" class="img">
+            <img src="imagenes/tostada.png" alt="tostada" id="img1" class="img">
+            <img src="imagenes/bananas.png" alt="bananas" id="img4" class="img">
+            <img src="imagenes/helado.png" alt="helado" id="img5" class="img">
+            <img src="imagenes/ensalada.png" alt="ensalada" id="img6" class="img">
+            <img src="imagenes/pizza.png" alt="pizza" id="img7" class="img">
+            <img src="imagenes/pizzas.png" alt="pizzas" id="img8" class="img">
+        </div>
+        <div class="carbos" id="carbohidratos">
+            <img src="imagenes/15.png" alt="nada" id="carbos1">
+            <img src="imagenes/0.png" alt="medio" id="carbos2">
+            <img src="imagenes/20.png" alt="entero" id="carbos3">
+            <img src="imagenes/40.png" alt="entero" id="carbos4">
+            <img src="imagenes/30.png" alt="entero" id="carbos5">
+            <img src="imagenes/0.png" alt="entero" id="carbos6">
+            <img src="imagenes/30.png" alt="entero" id="carbos7">
+            <img src="imagenes/60.png" alt="entero" id="carbos8">
+        </div>
+        <div class="botonesrojos" id="rojos">
+            <input type="button" id="rojo15" data-id="1">
+            <input type="button" id="rojo30" data-id="2">
+            <input type="button" id="rojo0" data-id="3">
+        </div>
+        <div class="botonesazules" id="azules">
+            <input type="button" id="tostada" data-id="1">
+            <input type="button" id="banana" data-id="2">
+            <input type="button" id="carne" data-id="3">
+        </div>
+    </div>
+    <button class="botonatras" id="btnatras">
+        <img src="imagenes/atras.png" alt="volveratras">
+    </button>
+    <img class="imagenlogo" src="imagenes/LOGO PERO MINI.png" alt="marcadeagua">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.8.1/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/JZylber/SoqueTIC-Client@v1.4.2/soquetic-client.js"></script>
+      
+    <script src="juego 1.js"></script>
+</body>
+</html>
