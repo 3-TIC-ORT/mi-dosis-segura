@@ -1,9 +1,11 @@
 {
   "name": "proyecto-midosissegura",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
+  "main": "express/back.js",
   "scripts": {
     "dev": "nodemon express/back.js",
+    "start": "node express/back.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/3-TIC-ORT/proyecto-midosissegura#readme",
   "dependencies": {
+    "express": "^5.2.1",
     "expresss": "^0.0.0",
     "nodemon": "^3.1.11",
     "soquetic": "^1.4.2"
