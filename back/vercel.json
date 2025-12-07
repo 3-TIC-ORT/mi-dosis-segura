@@ -5,5 +5,11 @@
       "src": "express/back.js",
       "use": "@vercel/node"
     }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/express/back.js"
+    }
   ]
 }
