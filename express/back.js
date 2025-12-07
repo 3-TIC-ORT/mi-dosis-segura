@@ -117,5 +117,5 @@ if (process.env.NODE_ENV !== 'production') {
     });
 }
 
-// Exportar para Vercel
+// Exportar para Verc
 export default app;
